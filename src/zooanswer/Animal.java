@@ -25,6 +25,7 @@ package zooanswer;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Objects;
 
 /**
  *
@@ -71,13 +72,6 @@ public class Animal {
                 return true;
         
         return false;
-    }
-    
-    public boolean equals(Animal animal) {
-        return this.name.equals(animal.name) 
-                && this.gender.equals(animal.gender) 
-                && this.age == animal.age
-                && this.type.equals(animal.type);
     }
 
     @Override
